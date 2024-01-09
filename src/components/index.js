@@ -3,5 +3,5 @@ import Header from "./header/Header";
 
 export {
     Sidebar,
-    Header
+    Header,
 }
