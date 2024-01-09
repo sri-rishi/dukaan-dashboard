@@ -1,0 +1,24 @@
+.search-box {
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: var(--lighter-gray);
+}
+
+.search-icon {
+    font-size: 1.8rem;
+    color: var(--gray);
+}
+
+.search-input {
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    background-color: transparent;
+}

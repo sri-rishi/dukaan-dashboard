@@ -1,0 +1,47 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 3.2rem;
+    border-bottom: 1px;
+    background-color: var(--white-color);
+}
+
+.header-title-section {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.header-title {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.header-title-sub {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.title-sub {
+    font-size: 1.2rem;
+}
+
+.title-sub-icon {
+    font-size: 1.4rem
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+
+
+
