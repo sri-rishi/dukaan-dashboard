@@ -1,9 +1,9 @@
 import {IoSearch} from "../../assets";
-const SearchBox = () => {
+const SearchBox = ({searchBoxClass, searchIconClass, placeholder}) => {
     return (
-        <div className="search-box">
-            <IoSearch  className="search-icon"/>
-            <input className="search-input" placeholder="Search fetures, tutorials, etc."/>
+        <div className={searchBoxClass}>
+            <IoSearch  className={searchIconClass}/>
+            <input className="search-input" placeholder={placeholder}/>
         </div>
     )
 }

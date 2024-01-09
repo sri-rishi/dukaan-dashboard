@@ -12,7 +12,11 @@ const Header = () => {
                     <span className="title-sub">How it works</span>
                 </p>
             </div>
-            <SearchBox />
+            <SearchBox 
+                searchBoxClass={"header-search-box"} 
+                searchIconClass={"header-search-icon"} 
+                placeholder={"Search fetures, tutorials, etc."}
+            />
             <div className="header-icons">
                 <CircularBgIcon icon={SpeakerSvg}/>
                 <CircularBgIcon icon={DropDownDarkSvg} />

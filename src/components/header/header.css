@@ -18,6 +18,7 @@
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.2rem;
+    color: var(--darkest-gray);
 }
 
 .header-title-sub {
@@ -26,6 +27,7 @@
     gap: 6px;
     font-weight: 400;
     line-height: 1.6rem;
+    color: var(--dark-gray)
 }
 
 .title-sub {
@@ -34,6 +36,22 @@
 
 .title-sub-icon {
     font-size: 1.4rem
+}
+
+.header-search-box {
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    border-radius: 6px;
+    gap: 8px;
+    background-color: var(--lighter-gray);
+}
+
+.header-search-icon {
+    font-size: 1.8rem;
+    color: var(--gray);
 }
 
 .header-icons {
