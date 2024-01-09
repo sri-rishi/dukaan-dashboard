@@ -1,4 +1,5 @@
 .sidebar {
+    position: relative;
     width: 15.5%;
     min-height: 100vh;
     display: flex;
@@ -8,7 +9,6 @@
     color: var(--white-color);
     padding: 1.6rem 1rem;
 }
-
 
 .sidebar-header {
     display: flex;
@@ -21,7 +21,6 @@
     height: 3.9rem;
     border-radius: 4px;
 }
-
 
 .sidebar-title-section {
     width: 10.8rem;
@@ -48,7 +47,6 @@
     font-size: 2rem
 }
 
-
 .sidebar-menu {
     display: flex;
     flex-direction: column;
@@ -63,6 +61,14 @@
     padding: 8px 16px;
 }
 
+.sidebar-menu-items:nth-child(7) {
+    background-color: var(--slate-color);
+}
+
+.sidebar-menu-items:hover {
+    background-color: var(--slate-color);
+}
+
 .sidebar-menu-icons {
     width: 2rem;
     height: 2rem;
@@ -73,3 +79,38 @@
     font-weight: 500;
     line-height: 2rem;
 }
+
+.credit-box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: var(--slate-color);
+    position: absolute;
+    bottom: 2rem;
+}
+
+.credit-icon {
+    font-size: 3.6rem;
+}
+
+.credit-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.credit-title {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+
+.credit-value {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+}
+

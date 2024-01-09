@@ -13,6 +13,7 @@ import {
     AppearenceSvg,
     PluginsSvg,
     FaChevronDown,
+    MdOutlineAccountBalanceWallet 
 } from "../../assets";
 
 const menuItems = [
@@ -103,6 +104,13 @@ const Sidebar = () => {
                     ))
                 }
             </ul>
+            <div className="credit-box">
+                <MdOutlineAccountBalanceWallet  className="credit-icon"/>
+                <p className="credit-text">
+                    <span className="credit-title">Available Credit</span>
+                    <span>222.10</span>
+                </p>
+            </div>
         </aside>
     )
 }
