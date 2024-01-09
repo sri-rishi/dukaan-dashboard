@@ -1,0 +1,52 @@
+.page-numbers-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--dark-gray);
+  }
+  
+  .page-numbers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px auto;
+  }
+  
+  .page-numbers > p {
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    border-radius: 4px;
+  }
+  
+  .page-btn {
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: transparent;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    color: var(--dark-gray);
+  }
+  
+  
+  .page-btn-icon {
+    font-size: 1.8rem; 
+  }
+  .page-btn > span {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+  }
+  
+  .current-page {
+    background-color: var(--sky-blue);
+    color: var(--white-color)
+  }
