@@ -11,10 +11,18 @@ import DiscountSvg from "./images/discounts.svg"
 import AudienceSvg from "./images/audience.svg";
 import AppearenceSvg from "./images/appearence.svg";
 import PluginsSvg from "./images/plugins.svg";
+import SpeakerSvg from "./images/speaker.svg";
+import DropDownDarkSvg from "./images/dropDowndark.svg";
 
 import {
     FaChevronDown,
-    GoQuestion
+    GoQuestion,
+    IoSearch, 
+    TbArrowsSort,
+    MdOutlineFileDownload,
+    IoIosArrowBack,
+    IoIosArrowForward,
+    MdOutlineAccountBalanceWallet 
 } from "./icons";
 
 export {
@@ -31,6 +39,14 @@ export {
     AudienceSvg,
     AppearenceSvg,
     PluginsSvg,
+    SpeakerSvg,
+    DropDownDarkSvg,
     FaChevronDown,
-    GoQuestion
+    GoQuestion,
+    IoSearch,
+    TbArrowsSort,
+    MdOutlineFileDownload,
+    IoIosArrowBack,
+    IoIosArrowForward,
+    MdOutlineAccountBalanceWallet 
 }
