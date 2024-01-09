@@ -1,4 +1,8 @@
 @import "./sidebar/sidebar.css";
 @import "./searchBox/searchBox.css";
 @import "./header/header.css";
-@import "./circularBgIcons/circularBgIcons.css"
+@import "./circularBgIcons/circularBgIcons.css";
+@import "./overviewBox/overviewBox.css";
+@import "./transactionTable/transactionTable.css";
+@import "./details/details.css";
+@import "./pageNumberBox/pageNumberBox.css";
